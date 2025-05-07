@@ -20,14 +20,15 @@ This repository contains a WordPress site configured for local development and v
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/your-wp-site.git
-   cd your-wp-site
+   git clone git@github.com:josephajibodu/flitbill-blog.git
+   cd flitbill-blog
    ```
 
 2. **Download WordPress Core**
 
    ```bash
-   wp core download
+   VERSION=$(cat wp-version.txt)
+   wp core download --version=$VERSION --force
    ```
 
 3. **Configure WordPress**

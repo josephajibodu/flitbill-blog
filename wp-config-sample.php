@@ -20,19 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'flitbill-blog' );
 
 /** Database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '127.0.0.1' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'Q9%W`jWJ&Irs!3 p;VJTJ&0bL@qUbpyeq>[1RGMR/y/goR%CEG>##ZARPr3hl>6&' );
+define( 'SECURE_AUTH_KEY',  'ekQ3AaI*DkdSD5,QvpI3w/HlL{5.^>cQ?jr*z8TcR|^R6=r*l@{^yk,.]fMcA2.J' );
+define( 'LOGGED_IN_KEY',    ')iWnkY+2>2p04+NpQc5Z({b^6VdcZgx OQB*:n-V/VSycWb<-VQM_Lnt4Z;3k^S/' );
+define( 'NONCE_KEY',        '(.=sg>SgbST1ON3:]%(G[m(=twgy=*T>0|0mpR:7W=/Kj_H&2h1vd<|n++6*)@nU' );
+define( 'AUTH_SALT',        '>qmjfRR$s@DcoDg^ErR~h2@`?tyt+r$W8dl8-hP-fyn/J+[s%O_M-:0A-K{4OhX^' );
+define( 'SECURE_AUTH_SALT', '.|5W,NPq.}+>aT^8#OD@JVErucY8K(}gGl<R&){$?6Y5$gz1pNPG6u9PShS=pyL%' );
+define( 'LOGGED_IN_SALT',   '=GFCL9 NDOmWlWZZPij/fD2c0W[D:m0!P.DU_p5l=1dYwp@O<:T.Co4l}*qz]w7M' );
+define( 'NONCE_SALT',       'nohv|(Q}IOh< aHxp587qxEzdOF4_goW-^B?c*tbS;c~Pp}.<I/+F*hZy0pL{RlR' );
 
 /**#@-*/
 
