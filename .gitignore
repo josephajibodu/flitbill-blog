@@ -1,0 +1,20 @@
+# Don't track WordPress core
+/wp-admin/
+/wp-includes/
+index.php
+license.txt
+readme.html
+xmlrpc.php
+
+# Ignore uploads and config
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/advanced-cache.php
+wp-content/debug.log
+wp-config.php
+
+# OS and IDE junk
+.DS_Store
+.idea/
+.vscode/
